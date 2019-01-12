@@ -4,7 +4,7 @@ kind: CronJob
 metadata:
   name:  gather-data
 spec:
-  schedule: "*/1 * * * *"
+  schedule: "*/3 * * * *"
   jobTemplate:
     spec:
       template:
