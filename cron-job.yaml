@@ -1,0 +1,19 @@
+---
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name:  gather-data
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: gather-data
+            image: gcr.io/easypaking-82ce0/kkbox_game:latest
+            command:
+            - /bin/sh
+            - -c
+            - mongodb_url=mongodb://mongo:27017/ npm run gather-data
+          restartPolicy: OnFailure

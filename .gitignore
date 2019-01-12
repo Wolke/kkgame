@@ -1,0 +1,4 @@
+bin
+node_modules
+build_push_image.sh
+src/const.ts
