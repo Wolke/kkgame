@@ -1,8 +1,4 @@
-starter-kit for AOG ; dialogflow
-
-follow up the structute.
-you can wrtie dialogflow-fulfuiment and AOG 
-just write login in ./src/intents/ and add to
-./src/webhook_actions.ts
-./src/webhook_dailogflow.ts
-
+![alt text](https://raw.githubusercontent.com/Wolke/kkgame/master/Screenshot_20190112-111803_LINE.jpg)
+![alt text](https://raw.githubusercontent.com/Wolke/kkgame/master/Screenshot_20190112-111812_LINE.jpg)
+![alt text](https://raw.githubusercontent.com/Wolke/kkgame/master/Screenshot_20190112-111820_LINE.jpg)
+![alt text](https://raw.githubusercontent.com/Wolke/kkgame/master/Screenshot_20190112-111848_LINE.jpg)
