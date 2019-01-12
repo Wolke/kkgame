@@ -17,7 +17,7 @@ spec:
         name: web
     spec:
       containers:
-      - image:  gcr.io/easypaking-82ce0/kkbox_game:v25
+      - image:  gcr.io/easypaking-82ce0/kkbox_game:v26
         name:  web
         command:
         - /bin/sh
